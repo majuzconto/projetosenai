@@ -3,7 +3,7 @@
   <meta charset="UTF-8" />
   <title>Página de Cadastro</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="stylesheet" type="text/css" href="" />
+  <link rel="stylesheet" type="text/css" href="siteqgcadastro.css" />
 </head>
 <body>
   <img src="c:\Users\Aluno2\Pictures\images.png" alt="Logo">
@@ -18,7 +18,7 @@
     <div class="content">      
       <!--FORMULÁRIO DE LOGIN-->
       <div id="login">
-        <form method="post" action=""> 
+        <form method="post"  id="login-form" action=""> 
           <h1>Login</h1> 
           <p> 
             <label for="email_login">Seu e-mail</label>
@@ -33,12 +33,19 @@
           <p> 
             <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
             <label for="manterlogado">Manter-me logado</label>
+          </p>  
+          <p>
+              <input type="submit" value="Logar" href="siteqg.html"/>
           </p>
-          
-          <p> 
-            <input type="submit" value="Logar"/>
-          </p>
-          
+          <script>
+            document.getElementById("login-form").addEventListener("submit", function(event) {
+                event.preventDefault(); // Evitar o envio do formulário padrão
+                // Aqui você pode adicionar lógica para verificar as credenciais de login
+                // Se as credenciais estiverem corretas, redirecionar para a página de homepage
+                window.location.href = "siteqg.html";
+            });
+        </script>
+    
           <p class="link">
             Ainda não tem conta?
             <a href="#paracadastro">Cadastre-se</a>
