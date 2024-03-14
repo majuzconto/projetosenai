@@ -1,7 +1,4 @@
-head{
-    box-align: items left
 
-}
 button
 {
 background-color: #4169e1;
@@ -9,5 +6,9 @@ color: white;
 border: none;
 border: radius 0mm;
 }
-
-
+header{
+    background-color: #F4A944;
+}
+section{
+    background-color: #4169e1;
+}
