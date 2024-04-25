@@ -1,11 +1,25 @@
-
-button
-{
-background-color: #4169e1;
-color: white;
-border: none;
-border: radius 0mm;
-}
-header{
+.cabeçalho{
     background-color: #F4A944;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+span:hover{
+    background-color: #4e76ed;
+}
+.menu{
+    border-top: solid 8px #4169e1;
+    background-color: #4169e1;
+    border-bottom: #4169e1 solid 8px;
+    text-align: center;
+}
+.top_dir{
+    float: left;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    color: #ef5a2c;
+    padding-left: 35px;
+    padding-top: 20px;
 }
