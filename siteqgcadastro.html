@@ -1,31 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="siteqgcadastro.css">
-    <title>Document</title>
+    <title>QG do Estudante</title>
 </head>
 <body>
-    <img src="c:\Users\Aluno2\Downloads\QG_DO_ESTUDANTE-removebg-preview.png" alt="Logo">
+    <img src="Imagem/QG_DO_ESTUDANTE-removebg-preview.png" alt="Logo">
     <hr>
   <div class="container" >
     <a class="links" id="paracadastro"></a>
     
     <div class="content">
-    
-        <p class="link">
-          Ainda não tem conta?
-          <a href="#paracadastro">Cadastre-se</a>
         </p>
       </form>
       <form action="#" class="signup-form">
           <h2>Cadastro</h2>
           <input type="text" placeholder="Nome" required>
+          <input type="text" placeholder="Sobrenome" required>
+          <input type="tel" placeholder="Telefone" required>
           <input type="email" placeholder="Email" required>
           <input type="password" placeholder="Senha" required>
-          <button type="submit">Cadastrar</button>
+          <input type="radio" name="Lembrar" id="sim" value="sim">
+          <label for="sim">Concordo com os <span><a href="#">Termos de uso</a></span></label>
+          <button type="submit"><a href="siteqglogin.html">Criar Conta</a></button>
       </form>
+      <script>
+        document.getElementByClassName("signup-form").addEventListener("submit", function(event) {
+            event.preventDefault(); // Evitar o envio do formulário padrão
+            // Aqui você pode adicionar lógica para verificar as credenciais de login
+            // Se as credenciais estiverem corretas, redirecionar para a página de homepage
+            window.location.href = "siteqglogin.html";
+        });
+    </script>
     </div>
     <p>
       <a href="Index.html"><button>Volte Aqui</button></a>

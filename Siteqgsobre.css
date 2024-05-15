@@ -9,3 +9,6 @@ color: white;
 border: none;
 border-radius: 35px;
 }
+header{
+    float: left;
+}
