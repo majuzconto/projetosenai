@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+p{
+    text-align: justify;
+}
+
+.cabeçalho{
+    width: 100%;
+    height: 35%;
+    border-bottom: 80px solid #f4A944;
+    border-top: 10px solid #F4A944;
+    background-color: #F4A944;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.schedule {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 10px;
+}
+
+.pomodoro-cycle {
+    display: contents;
+}
+
+.estudo, .descanso, .descanso-longo {
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.estudo {
+    background-color: #ff6347;
+}
+
+.descanso {
+    background-color: #4682b4;
+}
+
+.descanso-longo {
+    background-color: #32cd32;
+}
+
+span{
+    background-color: crimson;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin: 15px;
+}
