@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.cabeçalho{
+    width: 100%;
+    height: 125px;
+    border-bottom: 80px solid #FFE28e;
+    border-top: 10px solid #FFE28e;
+    background-color: #FFE28e;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.center{
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    float: left;
+    padding: 20px;
+}
+.pesq{
+    border-radius: 5px;
+    padding: 8px;
+    border: solid #533a26 4px;
+    background-color:  #f5f6fa;
+    color: #8795a2;
+    width: 25%;
+}
+
+input .pesq{
+    width: 20%;
+    height: 30px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: solid rgb(1, 1, 1);
+    border-radius: 10px;
+    background-image: url(Imagem/64673.png);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    margin-right: 20px;
+    float: right;
+    display: block;
+    text-align: left;
+}
+
+.container {
+    text-align: center;
+}
+
+.Materiais {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 10px;
+}
+
+
+.Meio {
+    display: contents;
+    text-align: center;
+}
+
+.CH, .L, .CN, .MAT, .Crono{
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    width: 80%;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.CH{
+    background-color: rgb(255, 43, 79);
+}
+
+.CN{
+    background-color: rgb(53, 255, 100);
+    color: black;
+}
+
+.MAT{
+    background-color: rgb(255, 153, 0);
+}
+
+.L{
+    background-color: rgb(0, 110, 255);
+}
+
+.Crono{
+    background-color: black;
+}
+
+main{
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

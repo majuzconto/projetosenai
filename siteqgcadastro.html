@@ -76,4 +76,52 @@
   <div>
     <a href="Siteqg.html"><button>Volte Aqui</button></a>
   </div>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="siteqgcadastro.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>QG do Estudante</title>
+</head>
+<body>
+    <img src="imagem/logo-QGdoestudante copiar.png" alt="Logo" height="25%">
+    <hr>
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+    
+    <div class="content">
+        </p>
+      </form>
+      <form action="#" class="signup-form">
+          <h2>Cadastro</h2>
+          <input type="text" placeholder="Nome" required>
+          <input type="text" placeholder="Sobrenome" required>
+          <input type="tel" placeholder="Telefone" required>
+          <input type="email" placeholder="Email" required>
+          <input type="password" placeholder="Senha" required>
+          <input type="radio" name="Lembrar" id="sim" value="sim">
+          <label for="sim">Concordo com os <span><a href="#">Termos de uso</a></span></label>
+          <button type="submit"><a href="siteqglogin.html">Criar Conta</a></button>
+      </form>
+      <script>
+        document.getElementByClassName("signup-form").addEventListener("submit", function(event) {
+            event.preventDefault(); // Evitar o envio do formulário padrão
+            // Aqui você pode adicionar lógica para verificar as credenciais de login
+            // Se as credenciais estiverem corretas, redirecionar para a página de login
+            window.location.href = "siteqglogin.html";
+        });
+    </script>
+    </div>
+    <p>
+      <a href="Index.html"><button>Volte Aqui</button></a>
+    </p>
+    <p>
+      <a href="Siteqgplanos.html"><button>Planos</button></a>
+    </p>
+  </div>  
+</body>
 </html>
