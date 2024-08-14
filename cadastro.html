@@ -1,44 +1,67 @@
 <!DOCTYPE html>
-<html>
-
 <head>
   <meta charset="UTF-8" />
   <title>Página de Cadastro</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="padrão.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="siteqgcadastro.css" />
 </head>
-
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="Imagem/logo-QGdoestudante copiar.png" style="height: 70px;"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="siteqgcadastro.html">Cadastrar</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="siteqglogin.html">Login</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Materiais gratuitos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Siteqgsobre.html">Sobre nós</a>
-            </li>
-          </ul>
-        </div>
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+    
+  
+          </p>
+        </form>
       </div>
-    </nav>
-  </header>
-  <main></main>
+    </div>
+  </div> 
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="siteqgcadastro.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>QG do Estudante</title>
+</head>
+<body>
+    <img src="imagem/logo-QGdoestudante copiar.png" alt="Logo" height="25%">
+    <hr>
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+    
+    <div class="content">
+        </p>
+      </form>
+      <form action="#" class="signup-form">
+          <h2>Cadastro</h2>
+          <input type="text" placeholder="Nome" required>
+          <input type="text" placeholder="Sobrenome" required>
+          <input type="tel" placeholder="Telefone" required>
+          <input type="email" placeholder="Email" required>
+          <input type="password" placeholder="Senha" required>
+          <input type="radio" name="Lembrar" id="sim" value="sim">
+          <label for="sim">Concordo com os <span><a href="#">Termos de uso</a></span></label>
+          <button type="submit"><a href="siteqglogin.html">Criar Conta</a></button>
+      </form>
+      <script>
+        document.getElementByClassName("signup-form").addEventListener("submit", function(event) {
+            event.preventDefault(); // Evitar o envio do formulário padrão
+            // Aqui você pode adicionar lógica para verificar as credenciais de login
+            // Se as credenciais estiverem corretas, redirecionar para a página de login
+            window.location.href = "siteqglogin.html";
+        });
+    </script>
+    </div>
+    <p>
+      <a href="Index.html"><button>Volte Aqui</button></a>
+    </p>
+    <p>
+      <a href="Siteqgplanos.html"><button>Planos</button></a>
+    </p>
+  </div>  
 </body>
-
 </html>
