@@ -23,6 +23,13 @@
       text-align: center;
     }
 
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
     input[type="text"],
     input[type="email"],
     input[type="password"],
@@ -52,7 +59,7 @@
     }
 
 
-    
+
 
     .container {
       display: flex;
@@ -69,9 +76,6 @@
       border-radius: 8px;
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 
-    }
-    main{
-      padding: 5%;
     }
   </style>
 </head>
@@ -104,10 +108,12 @@
       </div>
     </nav>
   </header>
+
   <main>
-    <h1 style="text-align: center;">LOGIN</h1>
+    
     <div class="container">
-      <div class="form-container">
+      
+      <div class="form-container"><h1 style="text-align: center;">LOGIN</h1>
         <div class="mb-3">
           <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email">
         </div>
@@ -122,7 +128,7 @@
         </div>
         <br>
         <div class="d-grid gap-2">
-          <button class="btn btn-primary" type="button">Entrar</button>
+          <a href="Home.html"><button class="btn btn-primary" type="button" href="Home.html">Entrar</button></a>
         </div>
         <p class="link">
           Ainda não tem conta?
@@ -133,7 +139,10 @@
     </div>
 
   </main>
-
+  <footer>
+    <p> &copy; <small>Copyright all for QG do Estudante Team</small></p>
+  </footer>
 
 </body>
+
 </html>
