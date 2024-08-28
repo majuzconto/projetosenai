@@ -30,7 +30,8 @@
 
         .img1,
         .img2,
-        .img3 {
+        .img3,
+        .img4 {
             height: 100%;
             background-position: center;
             background-repeat: no-repeat;
@@ -39,20 +40,23 @@
         }
 
         .img1 {
-            background-image: url(Imagens/Analu.png);
+            background-image: url(Banners/Prancheta\ 6.png);
         }
 
         .img2 {
-            background-image: url(Imagens/gabfirmino.png);
+            background-image: url(Banners/Prancheta\ 3.png);
         }
 
         .img3 {
-            background-image: url(Imagens/maju.png);
+            background-image: url(Banners/Prancheta\ 8.png);
+        }
+        .img4 {
+            background-image: url(Imagens/BANNER-METODOSENSINO.png);
         }
 
         .conteudo {
-            background-color: black;
-            color: aliceblue;
+            background-color: #FF9ED2;
+            color: rgb(0, 0, 0);
             font-size: 20px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             padding: 80px 40px 80px 40px;
@@ -62,14 +66,22 @@
 
         h2 {
             text-align: center;
+            font-family: "Barlow Condensed", sans-serif;
+            font-weight: 800;
         }
-
-        
-        footer {
+        h1 {
             text-align: center;
-            padding: 20px;
-            background-color: #e3f2fd;
+            font-family: "Barlow Condensed", sans-serif;
+            font-weight: 800;
         }
+        p{
+           font-family: "Outfit", sans-serif;
+        }
+        header{
+            position: fixed;
+        }
+        
+        
     </style>
 
 </head>
@@ -77,9 +89,9 @@
 <body>
     <!--ajustar na paleta de cores, tipografia, colocar botão que leva ao cadastro no final-->
     <header>
-        <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
+        <nav class="navbar navbar-expand-lg" style="background-color: #65D8DD">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="Imagem/logo-QGdoestudante copiar.png" style="height: 70px;"></a>
+                <a class="navbar-brand" href="Index.html"><img src="Imagem/logo-QGdoestudante copiar.png" style="height: 70px;"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -87,13 +99,13 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="cadastro.html">Cadastrar</a>
+                            <a class="nav-link active" aria-current="page" href="Siteqgplanos.html">Cadastrar</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="login.html">Login</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Materiais gratuitos</a>
+                            <a class="nav-link" href="Siteqgmateriais.html">Materiais gratuitos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Siteqgsobre.html">Sobre nós</a>
@@ -124,7 +136,11 @@
             <p>Conte com nosso suporte personalizado ao longo de seus estudos! Estamos aqui para
                 responder às suas perguntas, oferecer orientações e motivá-lo a alcançar seus objetivos, além de
                 oferecer de um cronograma pensado nas suas necessidades!</p>
-            <a href="cadastro.html"><button type="button" class="btn btn-secondary btn-lg">Cadastre-se!</button></a>
+        </div>
+        <div class="img4"></div>
+        <div class="conteudo">
+            <h1>FAÇA PARTE DO NOSSO TIME!"</h1>
+            <a href="Siteqgplanos.html"><button type="button" class="btn btn-lg" style="background-color: #FFE28E;">Cadastre-se</button></a>
         </div>
         <footer>
             <p> &copy; <small>Copyright all for QG do Estudante Team</small></p>
